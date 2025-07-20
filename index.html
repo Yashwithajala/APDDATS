@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plant Detection</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="lo.png" style="height: 100px;" />
+    <div class="logo">
+      <h2>Automated Plant Disease Detection And Treatment System</h2>
+    </div>
+    
+    <nav>
+      <ul id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#diseases">Diseases</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div style="margin-top: 149px;" id="home">
+    <marquee class="marq">Welcome to the Automated Plant Disease Detection and Treatment System 🌱Welcome to the Automated Plant Disease Detection and Treatment System 🌱</marquee>
+  </div>
+  <br />
+
+  <center><a href="test.html" class="predict-btn">🌿 Predict Disease</a></center>
+ 
+ 
+<!-- Image Slider Section -->
+<section class="image-slider" style="margin: 40px 0;">
+  <div class="slick-images">
+    <div><img src="https://agritechdigest.com/wp-content/uploads/2025/04/AI-Crop-Disease-Management.webp" alt="Sample 1" /></div>
+    <div><img src="https://helios-i.mashable.com/imagery/articles/00IdsOeeRxXUbOUZsaljJ8W/hero-image.fill.size_1248x702.v1682099374.png" alt="Sample 2" /></div>
+    <div><img src="https://miro.medium.com/v2/resize:fit:1400/1*CUjbLtX-FeWfT6D06ebziA.jpeg" alt="Sample 3" /></div>
+  </div>
+</section>
+
+
+
+
+  <section class="about-section" id="about">
+  <div class="about-wrapper">
+    <div class="about-img">
+      <img src="https://img.freepik.com/premium-photo/precision-agriculture-farmer-embraces-technology-realtime-plant-disease-scanning-data-analytics_38013-21185.jpg" alt="About Image" />
+    </div>
+    <div class="about-text">
+      <h2>About The Website</h2>
+      <p>
+        This website is designed to help farmers and plant
+        enthusiasts quickly and accurately identify plant diseases using
+        <strong>Artificial Intelligence</strong>. Our mission is to bridge the
+        gap between agriculture and technology by providing a simple platform.
+      </p>
+      <ul>
+        <li> Upload images of infected leaves or capture them via webcam</li>
+        <li> Get instant disease predictions using AI</li>
+        <li> Access treatment advice and preventive measures</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+  <br />
+  <marquee class="marq">⚠ Detect Plant Diseases Early - Protect Your Crops!⚠ Detect Plant Diseases Early - Protect Your Crops!⚠ Detect Plant Diseases Early - Protect Your Crops!</marquee>
+ 
+    <h1 style="text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            font-size: 2rem;margin-top: 30px;">Common Diseases</h1>
+    
+    <div class="disease-slider">
+        <!-- Die Back -->
+        <div class="disease-card">
+            <img src="https://i.pinimg.com/736x/3e/94/25/3e9425ffd949ac39c2231f6cb19e3523.jpg" alt="Die Back" class="disease-image">
+            <div class="disease-content">
+                <h2>Die Back</h2>
+                <div class="disease-meta">
+                    <span class="severity severity-high">High Severity</span>
+                    <span class="affected-plants"><i class="fas fa-leaf"></i> Mango</span>
+                </div>
+                <p>Twigs begin to die from the top downwards, with leaves turning brown and remaining attached to the plant.</p>
+                <div class="treatment">
+                    <h4>Recommended Treatment:</h4>
+                    <ul>
+                        <li>Prune affected branches 6-8 inches below infection</li>
+                        <li>Apply copper oxychloride paste on cut ends Spray with carbendazim(0.1%)</li>
+                      
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+        
+        <!-- Healthy -->
+        <div class="disease-card">
+            <img src="https://i.pinimg.com/736x/e7/1f/3e/e71f3efbb3f53801b5c611184446b154.jpg" alt="Healthy Mango" class="disease-image">
+            <div class="disease-content">
+                <h2>Healthy Tree</h2>
+                <div class="disease-meta">
+                    <span class="severity severity-none">No Disease</span>
+                    <span class="affected-plants"><i class="fas fa-leaf"></i> Mango</span>
+                </div>
+                <p>A healthy mango tree has vibrant green leaves, strong branches, and shows normal growth patterns without any signs of disease.</p>
+                <div class="treatment">
+                    <h4>Prevention Tips:</h4>
+                    <ul>
+                        <li>Regular inspection of trees</li>
+                        <li>Proper irrigation and fertilization</li>
+                        <li>Maintain good orchard hygiene</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Bacterial Canker -->
+        <div class="disease-card">
+            <img src="https://cdn.shopify.com/s/files/1/0550/9401/8125/files/Mango_bacterial_canker_disease_480x480.jpg?v=1720085989" alt="Bacterial Canker" class="disease-image">
+            <div class="disease-content">
+                <h2>Bacterial Canker</h2>
+                <div class="disease-meta">
+                    <span class="severity severity-high">High Severity</span>
+                    <span class="affected-plants"><i class="fas fa-leaf"></i> Mango, Stone Fruits</span>
+                </div>
+                <p>Dark, water-soaked lesions on stems and branches that ooze bacterial exudate, leading to dieback of branches.</p>
+                <div class="treatment">
+                    <h4>Recommended Treatment:</h4>
+                    <ul>
+                        <li>Prune infected branches below canker</li>
+                        <li>Apply copper-based bactericides</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Powdery Mildew -->
+        <div class="disease-card">
+            <img src="https://cdn.shopify.com/s/files/1/0550/9401/8125/files/Mango_powdery_mildew_disease_480x480.jpg?v=1720085767" alt="Powdery Mildew" class="disease-image">
+            <div class="disease-content">
+                <h2>Powdery Mildew</h2>
+                <div class="disease-meta">
+                    <span class="severity severity-medium">Medium Severity</span>
+                    <span class="affected-plants"><i class="fas fa-leaf"></i> Mango, Grapes</span>
+                </div>
+                <p>White powdery fungal growth on leaves, flowers and young fruits, causing distortion and premature dropping.</p>
+                <div class="treatment">
+                    <h4>Recommended Treatment:</h4>
+                    <ul>
+                        <li>Spray wettable sulfur (0.2%)</li>
+                        <li>Apply potassium bicarbonate</li>
+                        <li>Use resistant varieties</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Gall Midge -->
+        <div class="disease-card">
+            <img src="https://www.worldatlas.com/r/w2000-h1125-q90/upload/ee/9e/cc/shutterstock-633109046.jpg" alt="Gall Midge" class="disease-image">
+            <div class="disease-content">
+                <h2>Gall Midge</h2>
+                <div class="disease-meta">
+                    <span class="severity severity-medium">Medium Severity</span>
+                    <span class="affected-plants"><i class="fas fa-leaf"></i> Mango</span>
+                </div>
+                <p>Small maggots feed on tender leaves causing swollen, twisted galls that reduce photosynthetic area.</p>
+                <div class="treatment">
+                    <h4>Recommended Treatment:</h4>
+                    <ul>
+                        <li>Remove and destroy affected leaves</li>
+                        <li>Spray dimethoate (0.05%)</li>
+                        <li>Use yellow sticky traps</li>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+        
+        <!-- Cutting Weevil -->
+        <div class="disease-card">
+            <img src="https://i.ytimg.com/vi/pbw0OeU9-jU/maxresdefault.jpg" alt="Cutting Weevil" class="disease-image">
+            <div class="disease-content">
+                <h2>leaf-cutting weevil</h2>
+                <div class="disease-meta">
+                    <span class="severity severity-high">High Severity</span>
+                    <span class="affected-plants"><i class="fas fa-leaf"></i> Mango</span>
+                </div>
+                <p>Beetles notch leaf margins and grubs bore into stems causing wilting and dieback of shoots.</p>
+                <div class="treatment">
+                    <h4>Recommended Treatment:</h4>
+                    <ul>
+                        <li>Collect and destroy adults at night</li>
+                        <li>Spray carbaryl (0.1%)</li>
+                        <li>Remove and burn infested shoots</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Anthracnose -->
+        <div class="disease-card">
+            <img src="https://cdn.shopify.com/s/files/1/0550/9401/8125/files/Mango_anthracnose_disease_480x480.jpg?v=1720085697" alt="Anthracnose" class="disease-image">
+            <div class="disease-content">
+                <h2>Anthracnose</h2>
+                <div class="disease-meta">
+                    <span class="severity severity-high">High Severity</span>
+                    <span class="affected-plants"><i class="fas fa-leaf"></i> Mango, Many Fruits</span>
+                </div>
+                <p>Dark, sunken lesions on fruits and black spots on leaves that spread rapidly in wet conditions.</p>
+                <div class="treatment">
+                    <h4>Recommended Treatment:</h4>
+                    <ul>
+                        <li>Spray copper oxychloride (0.3%)</li>
+                        <li>Apply mancozeb (0.2%)</li>
+                        <li>Prune for better air circulation</li>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+        
+        <!-- Sooty Mould -->
+        <div class="disease-card">
+            <img src="https://cdn.shopify.com/s/files/1/0550/9401/8125/files/Mango_sooty_mold_disease_480x480.jpg?v=1720086043" alt="Sooty Mould" class="disease-image">
+            <div class="disease-content">
+                <h2>Sooty Mould</h2>
+                <div class="disease-meta">
+                    <span class="severity severity-medium">Medium Severity</span>
+                    <span class="affected-plants"><i class="fas fa-leaf"></i> Mango, Citrus</span>
+                </div>
+                <p>Black fungal growth on leaves and stems that develops on honeydew secreted by sap-sucking insects.</p>
+                <div class="treatment">
+                    <h4>Recommended Treatment:</h4>
+                    <ul>
+                        <li>Control sap-sucking insects</li>
+                        <li>Spray starch solution (1%)</li>
+                        <li>Wipe leaves with mild soap solution</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+<section class="contact" id="contact"><br>
+  <h2><center>Feedback Form</center></h2>
+  <br />
+  <form class="contact-form" id="contactForm">
+    <label for="email"><b>Email Address:</b></label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="phone"><b>Phone Number:</b></label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+    <label for="message"><b>Description:</b></label>
+    <textarea id="message" name="message" placeholder="Any issuess" rows="6" required></textarea>
+
+    <button type="submit">Submit</button><BR>
+  </form>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 Plant Detection. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
