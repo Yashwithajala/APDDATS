@@ -36,3 +36,6 @@ The trained model detects the following plant conditions:
 - HTML, CSS, JavaScript (for frontend)
 - Google Colab (for training)
 - VS Code
+
+plant_disease_model.pth
+https://drive.google.com/file/d/131iUg7bvMI1WMU5-l7m_jT6UPdm6yCGX/view?usp=sharing
