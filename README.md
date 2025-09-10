@@ -37,5 +37,9 @@ The trained model detects the following plant conditions:
 - Google Colab (for training)
 - VS Code
 
+  <img width="1881" height="988" alt="pd" src="https://github.com/user-attachments/assets/e7967b6d-0d9b-4550-9e66-a2191c671f2e" />
+
+ <img width="1813" height="934" alt="Screenshot 2025-07-24 211502" src="https://github.com/user-attachments/assets/6821d18c-0218-4931-8393-6ccf91d548e6" />
+
 plant_disease_model.pth
 https://drive.google.com/file/d/131iUg7bvMI1WMU5-l7m_jT6UPdm6yCGX/view?usp=sharing
